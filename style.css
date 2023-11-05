@@ -1,3 +1,37 @@
 * {
     outline: 1px solid red;
 }
+
+.container-fluid {
+    background-color: #333;
+    color:#ccc;
+}
+
+
+
+main div ul li {
+    margin-top: 1em;
+    list-style: none;
+}
+
+main div ul li img {
+    width: 20px;
+    border-radius: .5em;
+}
+
+main div:nth-child(1) div:nth-child(3) button {
+    width:40%;
+}
+
+main div:nth-child(2) div:nth-child(1) button {
+    width: 70%;
+}
+
+.card-title img {
+    width:25px;
+    border-radius: .5em;
+}
+
+.green {
+    color: green;
+}
