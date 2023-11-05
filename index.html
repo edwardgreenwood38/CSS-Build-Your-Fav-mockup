@@ -16,14 +16,18 @@
     <body>
         <div class="container-fluid">
             <nav class="row">
-                <div class="col">
-                    dashboard
+                <div class="col-6 functions">
+                    <i class="fa-solid fa-bars"></i> <i class="fa-brands fa-github fa-2xl"></i> Dashboard
                 </div>
-                <div class="col">
-                    search
+                <div class="col-4">
+                    <i class="fa-solid fa-magnifying-glass"></i> <input type="text">
                 </div>
-                <div class="col">
-                    profile
+                <div class="col-2 functions">
+                    <i class="fa-solid fa-plus fa-lg"></i>
+                    <i class="fa-regular fa-circle-dot fa-lg"></i>
+                    <i class="fa-solid fa-code-pull-request fa-lg"></i>
+                    <i class="fa-solid fa-inbox fa-lg"></i>
+                    <img src="./assets/images/github_profile.png" alt="profile">
                 </div>
             </nav>
             <main class="row">
@@ -126,15 +130,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="card bg-dark">
-                            <!-- <img src="..." class="card-img-top" alt="..."> -->
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
+                    <div class="row bg-dark list_changes">
+                        <h5>Latest changes</h5>
+                        <ul>
+                            <li>
+                                <div class="small">Yesterday</div>
+                                <span>Multi-account support on GitHub.com</span>
+                            </li>
+                            <li>
+                                <div class="small">2 days ago</div>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </li>
+                            <li>
+                                <div class="small">2 days ago</div>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit?</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </main>
