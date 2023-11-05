@@ -53,3 +53,25 @@ main div:nth-child(2) div:nth-child(1) button {
 .topics {
     margin-top: 1em;
 }
+
+.font_title {
+    font-size: 2.3em;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.colorfull {
+    background: linear-gradient(to right, purple, blue, #AA0044);
+    margin: .5em;
+    border-radius: 1em;
+}
+
+.tickets {
+    width:100%;
+    border-radius: .5em;
+}
+
+.learn {
+    border-radius: 1em;
+    margin: 1em 0;
+    background: linear-gradient(to right, black, darkgreen);
+}
